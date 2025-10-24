@@ -68,8 +68,9 @@ label start:
 
 # MENU 1: ELEGIR PERSONAJE
 label elige_personaje:
+    "Quien crees que es el culpable?"
     menu:
-        "Quien crees que es el culpable?":
+        
             "Espadachin" :
                 $ eleccion_personaje ="Espadachin"
                 jump elige_arma
@@ -88,8 +89,9 @@ label elige_personaje:
 
 # MENU 2: ELEGIR ARMA
 label elige_arma:
+    "Que arma crees que uso?"
     menu:
-        "Que arma crees que uso?":
+        
             "Espada":
                 $ eleccion_arma = "Espada"
                 jump elige_lugar
@@ -108,8 +110,9 @@ label elige_arma:
 
 # MENU 3: ELEGIR LUGAR
 label elige_lugar:
+    "En que lugar crees que ocurrio el crimen?"
     menu:
-        "En que lugar crees que ocurrio el crimen?":
+        
             "Cuarto del Rey":
                 $ eleccion_lugar = "Cuarto del Rey"
                 jump resultado_deduccion
